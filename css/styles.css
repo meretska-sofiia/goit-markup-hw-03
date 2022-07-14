@@ -8,7 +8,24 @@ html{
     box-sizing: inherit;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+}
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+address {
+    font-style: normal;
+}
 
 
 :root {
@@ -30,7 +47,7 @@ body {
 
 .list{
     list-style: none;
-    padding: 0;
+    padding-left: 0;
     margin: 0;
 }
 .container {
@@ -131,9 +148,17 @@ color: var(--accent-color);
 .hero{
 background-color: var(--background-section);
 text-align: center;
+padding-top: 200px;
+padding-bottom: 200px;
 }
 
 .hero .hero-title {
+    display: block;
+    width: 696px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+
     color: var(--button-white-color);
     font-weight: 900;
     font-size: 44px;    
@@ -238,11 +263,16 @@ text-align: center;
 
 .features .feature-text{
         line-height: 1.17;
-        margin-bottom: 0;
+margin-bottom: 0;
+margin-top: 0;
+padding-top: 13.5px;
+padding-bottom: 13.5px;
+
     
 }
 .works{
-    padding-bottom: 94px;
+padding-top: 0;
+padding-bottom: 0;
 }
 
 .works .works-images{
@@ -292,11 +322,20 @@ text-align: center;
     font-size: 16px;
     line-height: 1.19;
     margin-bottom: 10px;
+    margin-top: 30px;
 }
 
 .team .team-descrp{
     font-size: 16px;
     line-height: 1.19;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+.team-list .item .team-img{
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .footer {
@@ -364,7 +403,6 @@ text-align: center;
     padding-left: 24px;
     margin-top: 0;
     margin-bottom: 0;
-
 }
 
 .portfolio-list{
@@ -373,19 +411,22 @@ text-align: center;
     padding-top: 34px;
 
     margin: -15px;
+}
 
-  
+.img-descr{
+    border: 1px solid #EEEEEE;
 }
 
 .portfolio-list .item{
     margin: 15px;
-    outline: 1px solid #EEEEEE;
 
 }
 
 
 .item .portfolio-img{
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .portfolio-nav {
@@ -394,8 +435,6 @@ text-align: center;
     margin-left: auto;
     margin-right: auto;
     width: 611px;
+    padding-bottom: 13px;
 }
 
-.portfolio{
-    outline: 2px solid black;
-}
