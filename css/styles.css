@@ -437,7 +437,7 @@ padding-bottom: 30px;
 .portfolio-nav {
     display: flex;
     justify-content: center;
-    margin-bottom: 34px;
+    margin-bottom: 50px;
 }
 
 .portfolio-nav .item:not(:last-child){
