@@ -64,7 +64,7 @@ body {
 /*Шапка*/
 
 .header-page{
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
     padding-top: 24px;
     padding-bottom: 24px;
 
@@ -179,6 +179,7 @@ padding-bottom: 200px;
     cursor: pointer;
     font-family: inherit;
     border-color: transparent;
+    border-radius: 4px;
 }
 
 .button-primary {
@@ -190,9 +191,7 @@ padding-bottom: 200px;
     letter-spacing: 0.06em;
 
     padding: 10px 32px;
-    border-radius: 4px;
     min-width: 200px;
-
 }
 
 .button-secondary {
@@ -203,8 +202,7 @@ padding-bottom: 200px;
     font-weight: 500;
     line-height: 1.62;
 
-    padding: 6px 22px;
-    border-radius: 4px;
+    padding: 6px 22px;   
 }
 
 .button-secondary:not(:last-child){
